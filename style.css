@@ -43,6 +43,96 @@ main{
 }
 section{
     text-align: center;
-    min-height: 400px;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
     
+}
+
+.btn{
+    position: relative;
+    background-image: linear-gradient(rgba(0, 255, 255, 0.26), transparent);
+
+}
+.btn2{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 80px;
+    font-size: 28px;
+    background-color: aqua;
+    border-radius: 10
+    0px;
+    box-shadow:3px 3px 7px  rgba(0, 0, 0, 0.384);
+}
+.btn2:hover{
+    background-color: aquamarine;
+    font-size: 30px;
+    
+}
+
+
+#res{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.432);
+    color: white;
+    width: 500px;
+    font-size: 1.7em;
+    padding: 10px;
+    margin-left: 60vh;
+}
+ 
+.res{
+    background-image: url(imagens/restaurante.jpg);
+
+}
+
+.quarto{
+    background-image: url(imagens/quarto.jpg);
+}
+
+#quarto{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.432);
+    color: white;
+    width: 500px;
+    font-size: 1.7em;
+    padding: 10px;
+    margin-left: 60vh;
+}
+ 
+.trilha{
+    background-image: url(imagens/tirolesa.jpg);
+}
+
+#trilha{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.432);
+    color: white;
+    width: 500px;
+    font-size: 1.7em;
+    padding: 10px;
+    margin-left: 60vh;
+}
+
+.sauna{
+    background-image: url(imagens/hidromassagem.jpg);
+}
+
+#sauna{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.432);
+    color: white;
+    width: 500px;
+    font-size: 1.7em;
+    padding: 10px;
+    margin-left: 60vh;
 }
